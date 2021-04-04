@@ -56,10 +56,10 @@ func main() {
 		(brg3.HargaBrg * blj3.JumlahBrg) + (brg4.HargaBrg * blj4.JumlahBrg) + (brg5.HargaBrg * blj5.JumlahBrg)
 
 	fmt.Println("Detail Belanjaan")
-	fmt.Println(brg1.NamaBrg, "=", blj1.JumlahBrg, "buah")
-	fmt.Println(brg2.NamaBrg, "=", blj2.JumlahBrg, "buah")
-	fmt.Println(brg3.NamaBrg, "=", blj3.JumlahBrg, "buah")
-	fmt.Println(brg4.NamaBrg, "=", blj4.JumlahBrg, "buah")
-	fmt.Println(brg5.NamaBrg, "=", blj5.JumlahBrg, "buah")
+	fmt.Println(brg1.NamaBrg, "=", blj1.JumlahBrg, "pcs")
+	fmt.Println(brg2.NamaBrg, "=", blj2.JumlahBrg, "pcs")
+	fmt.Println(brg3.NamaBrg, "=", blj3.JumlahBrg, "pcs")
+	fmt.Println(brg4.NamaBrg, "=", blj4.JumlahBrg, "pcs")
+	fmt.Println(brg5.NamaBrg, "=", blj5.JumlahBrg, "pcs")
 	fmt.Println("Total Biaya yang harus dibayar:", total)
 }
